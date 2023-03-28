@@ -1,0 +1,4 @@
+services:
+  playwright:
+    command: sleep infinity
+    container_name: dev-playwright
