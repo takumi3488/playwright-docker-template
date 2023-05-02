@@ -16,4 +16,4 @@ RUN apt-get update && apt-get install -y curl && \
   yarn playwright install --with-deps chromium
 COPY . .
 
-CMD ["yarn", "esm", "kobe_lib/create_book.ts"]
+CMD ["yarn", "esm", "index.ts"]
