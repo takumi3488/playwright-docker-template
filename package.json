@@ -21,6 +21,7 @@
     "typescript": "^5.0.2"
   },
   "scripts": {
+    "start": "node --no-warnings --loader ts-node/esm src/main.ts",
     "check": "tsc --noEmit",
     "esm": "node --no-warnings --loader ts-node/esm",
     "lint": "eslint \"src/**/*.{js,ts}\"",
