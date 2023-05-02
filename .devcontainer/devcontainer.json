@@ -1,5 +1,6 @@
 {
   "dockerComposeFile": ["../compose.yml", "compose.yml"],
   "service": "playwright",
-  "workspaceFolder": "/app"
+  "workspaceFolder": "/app",
+  "postCreateCommand": "apt-get update && apt-get install -y git"
 }
